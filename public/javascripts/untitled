@@ -1,0 +1,15 @@
+<script>
+socket = io();
+function abc()
+{
+
+
+
+document.getElementById('chat_box').innerHTML=   document.getElementById('chat_box').innerHTML+str; 
+socket.emit('chat message1',message);
+document.getElementById('btn-input').value='';                         
+ }
+
+       
+
+</script>

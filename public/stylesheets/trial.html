@@ -1,0 +1,53 @@
+<script>
+function changehtml()
+{
+  var changedhtml='<div class="row" >
+                  <div class="col-md-9">
+                                  <div class="row" >
+                                    <div class="col-md-2">
+                                     </div>
+                                  <div class="col-md-9" style="padding-bottom:20px">
+                                  <img src="" id="img123" width=\'400\' height=\'300\' style="margin:auto"></img>
+                                  </div>
+                                </div>
+
+                               <div class="row">
+                                 <div class="col-md-2">
+                                 </div>
+                                <div class="col-md-9">
+
+                                <video id=\'v\' style=\'display:none\'></video>
+                                <canvas id=\'c\'></canvas>
+                                
+                               </div>
+                             </div>
+              </div>
+   <div class="col-md-3">
+
+
+<div class="panel panel-primary" style="height:70vh">
+    <div class="panel-heading">
+      <span style="text-align:center">Peer Chat</span>
+    </div>
+    <div class="panel-body">
+        <ul class="chat" id=\'chat_box\'>
+        </ul>
+    </div>
+    <div class="panel-footer">
+        <div class="input-group">
+            <input id="target" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+            <span class="input-group-btn">
+            <button class="btn btn-warning btn-sm" id="btn-chat" onclick=\'send_text()\'>
+                    Send</button>
+            </span>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>';
+
+document.getElementById(a1).innerHTML=changedhtml;
+}
+
+</script>
